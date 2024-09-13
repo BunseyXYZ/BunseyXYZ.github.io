@@ -69,7 +69,7 @@
             color: #c7b7ed;
         }
 
-        .services-container, .testimonials-container {
+        .services-container, .testimonials-container, .affiliates-container {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -116,6 +116,13 @@
             background-color: #fff;
             color: #c7b7ed;
         }
+
+        .affiliates-container img {
+            margin: 20px;
+            border: 1px solid #c7b7ed;
+            border-radius: 5px;
+            width: 200px;
+        }
     </style>
 </head>
 <body>
@@ -127,6 +134,7 @@
             <a href="#services">Services</a>
             <a href="#about">About</a>
             <a href="#testimonials">Testimonials</a>
+            <a href="#affiliates">Affiliates</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
@@ -164,30 +172,44 @@
     </section>
 
     <section id="testimonials">
-    <h2>Client Testimonials</h2>
-    <div class="testimonials-container">
-        <div class="testimonial">
-            <p>"Bunsey is one of the greatest creators to ever grace this community, and no, I'm not being held at gunpoint to say this—I mean every word!"</p>
-            <p>- Pirate Hub</p>
+        <h2>Client Testimonials</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"Bunsey is one of the greatest creators to ever grace this community, and no, I'm not being held at gunpoint to say this—I mean every word!"</p>
+                <p>- Pirate Hub</p>
+            </div>
+            <div class="testimonial">
+                <p>"Misu Airlines are a 10/10. They have really, really hot planes!"</p>
+                <p>- Darby</p>
+            </div>
+            <div class="testimonial">
+                <p>"PEAAAAAAK PEAAAAAAAAAAAAAAAAKK"</p>
+                <p>- bbnnuuyy</p>
+            </div>
+            <div class="testimonial">
+                <p>"akrscoi 2.0 it’s a good thing 👍 rr34 may get better traction but using the knowledge and skill acquired from making rr34 to make better content on other platforms is much better. Been seeing really promising works lately, keep it up!"</p>
+                <p>- Kaltvin</p>
+            </div>
+            <div class="testimonial">
+                <p>"I'd like to announce that Bunsey has died of prostate cancer."</p>
+                <p>- Dude with 5k followers</p>
+            </div>
         </div>
-        <div class="testimonial">
-            <p>"Misu Airlines are a 10/10. They have really, really hot planes!"</p>
-            <p>- Darby</p>
+    </section>
+
+    <section id="affiliates">
+        <h2>Our Partnerships & Affiliates</h2>
+        <div class="affiliates-container">
+            <!-- Lovense -->
+            <a href="https://www.lovense.com/" target="_blank">
+                <img src="/mnt/data/lovense_logo.png" alt="Lovense Logo">
+            </a>
+            <!-- MRL Sex Doll -->
+            <a href="https://mrlsexdoll.com/" target="_blank">
+                <img src="/mnt/data/mrl_sexdoll_logo.png" alt="MRL Sex Doll Logo">
+            </a>
         </div>
-        <div class="testimonial">
-            <p>"PEAAAAAAK PEAAAAAAAAAAAAAAAAKK"</p>
-            <p>- bbnnuuyy</p>
-        </div>
-        <div class="testimonial">
-            <p>"akrscoi 2.0 it’s a good thing 👍 rr34 may get better traction but using the knowledge and skill acquired from making rr34 to make better content on other platforms is much better. Been seeing really promising works lately, keep it up!"</p>
-            <p>- Kaltvin</p>
-        </div>
-        <div class="testimonial">
-            <p>"I'd like to announce that Bunsey has died of prostate cancer."</p>
-            <p>- Dude with 5k followers</p>
-        </div>
-    </div>
-</section>
+    </section>
 
     <section id="contact" class="contact-form">
         <h2>Contact Us</h2>
