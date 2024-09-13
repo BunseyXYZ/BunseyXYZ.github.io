@@ -15,7 +15,6 @@
             font-family: Arial, sans-serif;
             background-color: #000;
             color: #fff;
-            line-height: 1.6;
         }
 
         a {
@@ -27,8 +26,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 20px 30px;
             background-color: #000;
-            padding: 15px 30px;
             border-bottom: 2px solid #c7b7ed;
         }
 
@@ -43,51 +42,53 @@
         }
 
         header {
-            padding: 100px 0;
+            padding: 150px 0;
             text-align: center;
             background-color: #111;
-            color: #fff;
         }
 
         header h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             color: #c7b7ed;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #fff;
         }
 
         section {
             padding: 60px 30px;
+            text-align: center;
         }
 
         section h2 {
-            text-align: center;
+            font-size: 2.5rem;
             margin-bottom: 40px;
-            font-size: 2rem;
             color: #c7b7ed;
-        }
-
-        .services, .about, .testimonials {
-            margin-bottom: 50px;
         }
 
         .services-container, .testimonials-container {
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
-            justify-content: space-around;
+            margin-bottom: 50px;
         }
 
         .service, .testimonial {
             background-color: #111;
-            margin: 10px;
             padding: 20px;
-            width: 300px;
+            margin: 20px;
+            width: 250px;
             border: 1px solid #c7b7ed;
             border-radius: 5px;
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
             background-color: #000;
+            padding: 40px;
+            text-align: center;
             border-top: 2px solid #c7b7ed;
         }
 
@@ -102,9 +103,9 @@
         }
 
         .contact-form button {
+            padding: 10px 20px;
             background-color: #c7b7ed;
             color: #000;
-            padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -132,45 +133,61 @@
 
     <header>
         <h1>Welcome to Misu Studios</h1>
-        <p>Creative Art, Adult Game Development, and More</p>
+        <p>Crafting Unique Art & Immersive Adult Games</p>
     </header>
 
-    <section id="services" class="services">
+    <section id="services">
         <h2>Our Services</h2>
         <div class="services-container">
             <div class="service">
                 <h3>3D Map Design</h3>
-                <p>We create custom and detailed 3D maps for a variety of applications.</p>
+                <p>Custom, detailed 3D maps for various applications.</p>
             </div>
             <div class="service">
                 <h3>Adult Products & E-Commerce</h3>
-                <p>Designing, marketing, and selling adult products with secure platforms.</p>
+                <p>Designing, marketing, and selling adult products.</p>
             </div>
             <div class="service">
                 <h3>Adult Game Development</h3>
-                <p>Developing immersive adult gaming experiences with unique gameplay.</p>
+                <p>Immersive gaming experiences with unique gameplay.</p>
             </div>
             <div class="service">
                 <h3>Discord Bot Development</h3>
-                <p>Creating custom bots to enhance Discord communities.</p>
+                <p>Custom bots to enhance your Discord community.</p>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about">
         <h2>About Misu Studios</h2>
-        <p>Misu Studios is a team of passionate artists and developers. We are committed to pushing boundaries in the adult gaming community by creating innovative content with distinctive gameplay and environments. With over four years of industry expertise, 150+ satisfied clients annually, and two active partnerships, we strive for excellence in every project.</p>
+        <p>At Misu Studios, we specialize in creating groundbreaking content in the adult gaming community. Our dedicated team of artists is committed to pushing boundaries with innovative projects that deliver unique gameplay experiences.</p>
     </section>
 
-    <section id="testimonials" class="testimonials">
-        <h2>Client Testimonials</h2>
-        <div class="testimonials-container">
-            <div class="testimonial">
-                <p>"Bunsey is one of the greatest creators to ever grace this community, and no, I'm not being held at gunpoint to say this—I mean every word!"</p>
-                <p>- Pirate Hub</p>
-            </div>
+    <section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials-container">
+        <div class="testimonial">
+            <p>"Bunsey is one of the greatest creators to ever grace this community, and no, I'm not being held at gunpoint to say this—I mean every word!"</p>
+            <p>- Pirate Hub</p>
         </div>
-    </section>
+        <div class="testimonial">
+            <p>"Misu Airlines are a 10/10. They have really, really hot planes!"</p>
+            <p>- Darby</p>
+        </div>
+        <div class="testimonial">
+            <p>"PEAAAAAAK PEAAAAAAAAAAAAAAAAKK"</p>
+            <p>- bbnnuuyy</p>
+        </div>
+        <div class="testimonial">
+            <p>"akrscoi 2.0 it’s a good thing 👍 rr34 may get better traction but using the knowledge and skill acquired from making rr34 to make better content on other platforms is much better. Been seeing really promising works lately, keep it up!"</p>
+            <p>- Kaltvin</p>
+        </div>
+        <div class="testimonial">
+            <p>"I'd like to announce that Bunsey has died of prostate cancer."</p>
+            <p>- Dude with 5k followers</p>
+        </div>
+    </div>
+</section>
 
     <section id="contact" class="contact-form">
         <h2>Contact Us</h2>
