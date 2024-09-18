@@ -222,7 +222,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Misu Studios. All rights reserved.</p>
+        <p>© 2024 Misu Studios. All rights reserved. The logos and the distrubution of content is not allowed weather its to sell and create profit is prohibited by Misu Studoios and the state that they reside in. </p>
     </footer>
 </body>
 </html>
